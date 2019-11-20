@@ -1,0 +1,9 @@
+.gradle/
+/build/
+/app/build/
+/third_party/bypass/build/
+
+.idea/
+*.iml
+
+out/

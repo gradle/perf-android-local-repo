@@ -1,0 +1,8 @@
+noop {
+  versions=["5.6.1", "6.0-rc-1"]
+  tasks=["assDeb"]
+  gradle-args= ["--offline", "-Dcom.android.gradle.version=4.0.0-dev", "--max-workers", "3", "-Dmaven.repo.local=/tmp/maven20923"]
+  system-properties  {
+    gradle.user.home = ""
+  }
+}
